@@ -1,4 +1,6 @@
-// Bar and Bubble charts
+/* DELIVERABLE2 
+Bar and Bubble charts */
+
 // Create the buildCharts function.
 function buildCharts(sample) {
   // Use d3.json to load and retrieve the samples.json file 
