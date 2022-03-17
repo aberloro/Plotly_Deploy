@@ -92,7 +92,7 @@ function buildCharts(sample) {
       type: "bar",
       orientation: "h",
       marker: {
-        color: otuIDarray,
+        color: sampleValuesArray,
         colorscale: "Bluered",
         }
     }];
