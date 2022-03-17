@@ -11,20 +11,31 @@
 </head>
 
 <body>
-
-  <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center text-white" style="background-image: linear-gradient(to left,rgba(255, 0, 0, 0.747), rgba(0, 0, 255, 0.74)) ">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     
+    <div class="container" >
+      <div class = "row">
+        <div class = "col-md-12">
+            <h3 class ="bold" style="color:rgb(245, 4, 24)"> Project Overview </h3>
+            <p>Thank you for leaving your belly button bacteria samples with Improbable Beef!! <br></p>
+            <p>Please select your participant ID number from the dropdown menu.  These charts will show 
+              you which bacterial species live in your navel.  If Improbable Beef identifies a species 
+              they would like to use to synthesize beef, you can look here to see if that species is 
+              native to your body. </p>
+            <br>
+        </div>
+      </div>
+
     <div class="row">
       <div class="col-md-2">
         <!-- well div with dropdown header and menu-->
         <div class="well">
-          <h5>Test Subject ID No.:</h5>
+          <h5 style="color: rgb(245, 4, 24)">Test Subject ID No.:</h5>
           <!-- dropdown menu that calls the optionChanged function
           The arguement for the optionChanged function is this.value... 
           aka current value of drop down menu selection-->
@@ -32,9 +43,9 @@
         </div>
         
         <!--panel division-element has a header and the sample info-->
-        <div class="panel panel-primary">
+        <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+            <h3 class="panel-title" style="color: rgb(245, 4, 24)">Demographic Info</h3>
           </div>
           <!--informion panel stores sample meta data-->
           <div id="sample-metadata" class="panel-body"></div>
